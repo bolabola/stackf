@@ -10,6 +10,22 @@ siteName="舒尔特方格"
 description="随时随地打开，开启专注力训练"
 siteLink="https://edui.fun/schulte/"
 siteName="舒尔特方格"
+[[list.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="https://edui.fun/schulte/"
+siteName="舒尔特方格"
+[[list.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="https://edui.fun/schulte/"
+siteName="舒尔特方格"
+[[list.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="https://edui.fun/schulte/"
+siteName="舒尔特方格"
+[[list.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="https://edui.fun/schulte/"
+siteName="舒尔特方格"
 
 [[list]]
 tag = 'banana'
@@ -43,10 +59,48 @@ siteName="舒尔特方格"
 description="随时随地打开，开启专注力训练"
 siteLink="http://www.baidu.com"
 siteName="舒尔特方格"
+[[list.sub.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="http://www.baidu.com"
+siteName="舒尔特方格"
+
+[[list.sub.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="http://www.baidu.com"
+siteName="舒尔特方格"
+[[list.sub.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="http://www.baidu.com"
+siteName="舒尔特方格"
+
+[[list.sub.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="http://www.baidu.com"
+siteName="舒尔特方格"
 
 [[list.sub]]
 tag = 'efg'
 css = 'icon-star'
+
+[[list.sub.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="http://www.baidu.com"
+siteName="舒尔特方格"
+
+[[list.sub.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="http://www.baidu.com"
+siteName="舒尔特方格"
+
+[[list.sub.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="http://www.baidu.com"
+siteName="舒尔特方格"
+
+[[list.sub.item]]
+description="随时随地打开，开启专注力训练"
+siteLink="http://www.baidu.com"
+siteName="舒尔特方格"
 
 [[list.sub.item]]
 description="随时随地打开，开启专注力训练"
