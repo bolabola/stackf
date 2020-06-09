@@ -47,7 +47,7 @@
                         <ul>
                             {{range .sub}}
                             <li>
-                                <a href="#{{.tag}}" class="smooth">
+                                <a href="javascript:" class="smooth" data-tag="#{{.tag}}">
                                     <i class="{{.css}}"></i>
                                     <span class="title">{{.tag}}</span>
                                 </a>
@@ -57,7 +57,7 @@
                     </li>
                     {{ else }}
                     <li>
-                        <a href="#{{.tag}}" class="smooth">
+                        <a href="javascript:" class="smooth" data-tag="#{{.tag}}">
                             <i class="{{.css}}"></i>
                             <span class="title">{{.tag}}</span>
                         </a>
@@ -146,8 +146,7 @@
                 <div class="footer-inner">
                     <!-- Add your copyright text here -->
                     <div class="footer-text">
-                        @2020 StackF.com <span id="busuanzi_container_site_pv" style='display:none'>总访问量 <span
-                                id="busuanzi_value_site_pv"></span> 次</span>
+                        @2020 StackF.com 
                     </div>
                     <div class="go-up">
                         <a href="#" rel="go-top">
@@ -158,8 +157,6 @@
             </footer>
         </div>
     </div>
-
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
     <script src="//cdnjs.loli.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- 锚点平滑移动 -->
@@ -204,7 +201,7 @@
                 public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
                 ps_destroy();
                 $("html, body").animate({
-                    scrollTop: $($(this).attr("href")).offset().top - 30
+                    scrollTop: $($(this).attr("data-tag")).offset().top - 30
                 }, {
                     duration: 500,
                     easing: "swing"
@@ -221,7 +218,7 @@
             });
             $(this).parent("li").addClass("active");
             e.preventDefault();
-            href = $(this).attr("href");
+            href = $(this).attr("data-tag");
             pos = $(href).position().top - 30;
         });
     </script>

@@ -1,5 +1,5 @@
 [[list]]
-tag = 'apple'
+tag = '一二三'
 css = 'icon-globe'
 
 [[list.item]]
@@ -28,7 +28,7 @@ siteLink="https://edui.fun/schulte/"
 siteName="舒尔特方格"
 
 [[list]]
-tag = 'banana'
+tag = '四五六'
 css = 'icon-star'
 
 [[list.item]]
@@ -43,11 +43,11 @@ siteName="舒尔特方格"
 
 
 [[list]]
-tag = 'banana'
+tag = '七八千'
 css = 'icon-star'
 
 [[list.sub]]
-tag = 'abc'
+tag = '不认识'
 css = 'icon-globe'
 
 [[list.sub.item]]
@@ -79,7 +79,7 @@ siteLink="http://www.baidu.com"
 siteName="舒尔特方格"
 
 [[list.sub]]
-tag = 'efg'
+tag = '完就挂'
 css = 'icon-star'
 
 [[list.sub.item]]
