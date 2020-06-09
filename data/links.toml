@@ -115,6 +115,11 @@ description="免费在线数学工具: 绘图, 几何, 3D及更多内容"
 siteLink="https://www.geogebra.org/"
 siteName="GeoGebra"
 
+[[list.sub.item]]
+description="TOML<->JSON Online converter"
+siteLink="https://pseitz.github.io/toml-to-json-online-converter/"
+siteName="TOML<->JSON"
+
 
 [[list.sub]]
 tag = '完就挂'
