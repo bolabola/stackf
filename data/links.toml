@@ -1,5 +1,5 @@
 [[list]]
-tag = '一二三'
+tag = '玩儿翁'
 css = 'icon-globe'
 
 [[list.item]]
@@ -43,40 +43,78 @@ siteName="舒尔特方格"
 
 
 [[list]]
-tag = '七八千'
+tag = '常用工具'
 css = 'icon-star'
 
 [[list.sub]]
-tag = '不认识'
+tag = '在线工具'
 css = 'icon-globe'
 
 [[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
+description="JSON 在线解析格式化"
+siteLink="http://www.kjson.com/"
+siteName="JSON 在线工具"
 
 [[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
-[[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
+description="PHP 在线加密平台"
+siteLink="http://www.phpjm.net/"
+siteName="PHP加密"
 
 [[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
-[[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
+description="解密微盾PHP加密过的PHP脚本"
+siteLink="https://yoursunny.com/p/PHP-decode/"
+siteName="微盾PHP解密"
 
 [[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
+description="在线JSON校验格式化工具"
+siteLink="http://www.bejson.com/"
+siteName="Be JSON"
+
+[[list.sub.item]]
+description="开源中国oschina在线工具"
+siteLink="http://tool.oschina.net/"
+siteName="在线工具"
+
+[[list.sub.item]]
+description="在线工具"
+siteLink="http://tool.lu/"
+siteName="tool.lu"
+
+[[list.sub.item]]
+description="UTF8/GBK/UNICODE等编码转换"
+siteLink="http://www.mytju.com/classcode/tools.asp"
+siteName="编码转换"
+
+[[list.sub.item]]
+description="JSON解析压缩对比格式化"
+siteLink="https://www.sojson.com/"
+siteName="JSON压缩转义"
+
+[[list.sub.item]]
+description="汉字拼音在线转换标注"
+siteLink="https://www.qqxiuzi.cn/zh/pinyin/"
+siteName="汉字拼音转换"
+
+[[list.sub.item]]
+description="在线文件文本差异对比"
+siteLink="https://www.diffchecker.com/"
+siteName="DiffChecker"
+
+[[list.sub.item]]
+description="shuax出品chrome离线地址"
+siteLink="https://tools.shuax.com/chrome/"
+siteName="Chrome下载"
+
+[[list.sub.item]]
+description="绘制图形函数，绘图数据，数学方程，几何变换"
+siteLink="https://www.desmos.com/calculator"
+siteName="Desmos"
+
+[[list.sub.item]]
+description="免费在线数学工具: 绘图, 几何, 3D及更多内容"
+siteLink="https://www.geogebra.org/"
+siteName="GeoGebra"
+
 
 [[list.sub]]
 tag = '完就挂'
