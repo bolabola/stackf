@@ -47,6 +47,45 @@ tag = '常用工具'
 css = 'icon-star'
 
 [[list.sub]]
+tag = '精品软件'
+css = 'icon-globe'
+
+[[list.sub.item]]
+description="多窗口文件整理工具"
+siteLink="http://www.softwareok.com/?seite=Freeware/Q-Dir"
+siteName="Q-Dir"
+
+[[list.sub.item]]
+description="开源免费屏幕录制和视频直播软件"
+siteLink="https://obsproject.com/"
+siteName="OBS Studio"
+
+[[list.sub.item]]
+description="github出品开源跨平台文本编辑器"
+siteLink="https://atom.io/"
+siteName="Atom"
+
+[[list.sub.item]]
+description="开源3D模型读写库"
+siteLink="http://www.assimp.org/"
+siteName="Assimp"
+
+[[list.sub.item]]
+description="An image effects library for JavaScript"
+siteLink="http://evanw.github.io/glfx.js/demo/"
+siteName="glfx.js"
+
+[[list.sub.item]]
+description="3D模型展示平台"
+siteLink="https://sketchfab.com/"
+siteName="sketchfab"
+
+[[list.sub.item]]
+description="基于WebGL的3D图形引擎"
+siteLink="https://www.babylonjs.com/"
+siteName="Babylonjs"
+
+[[list.sub]]
 tag = '在线工具'
 css = 'icon-globe'
 
