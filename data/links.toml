@@ -1,45 +1,11 @@
 [[list]]
-tag = '玩儿翁'
-css = 'icon-globe'
-
-[[list.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="https://edui.fun/schulte/"
-siteName="舒尔特方格"
-[[list.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="https://edui.fun/schulte/"
-siteName="舒尔特方格"
-[[list.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="https://edui.fun/schulte/"
-siteName="舒尔特方格"
-[[list.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="https://edui.fun/schulte/"
-siteName="舒尔特方格"
-[[list.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="https://edui.fun/schulte/"
-siteName="舒尔特方格"
-[[list.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="https://edui.fun/schulte/"
-siteName="舒尔特方格"
-
-[[list]]
-tag = '四五六'
+tag = '这里没有'
 css = 'icon-star'
 
 [[list.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="https://edui.fun/schulte/"
-siteName="舒尔特方格"
-
-[[list.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="https://edui.fun/schulte/"
-siteName="舒尔特方格"
+description="这里什么也没有"
+siteLink="http://s.mr"
+siteName="这里没有"
 
 
 [[list]]
@@ -158,38 +124,3 @@ siteName="GeoGebra"
 description="TOML<->JSON Online converter"
 siteLink="https://pseitz.github.io/toml-to-json-online-converter/"
 siteName="TOML<->JSON"
-
-
-[[list.sub]]
-tag = '完就挂'
-css = 'icon-star'
-
-[[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
-
-[[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
-
-[[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
-
-[[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
-
-[[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
-
-[[list.sub.item]]
-description="随时随地打开，开启专注力训练"
-siteLink="http://www.baidu.com"
-siteName="舒尔特方格"
