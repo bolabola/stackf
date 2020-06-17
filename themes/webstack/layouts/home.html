@@ -1,237 +1,95 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>Semantic UI </title> 
+  <!-- 使用CDN导入js和css 文件--> 
+  <link href="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.css" rel="stylesheet" /> 
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+  <script src="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.js"></script> 
+  <script>
+        $(function () {
+            $( "#toggle" ).on( "click", function() {
+			$('.ui.sidebar').sidebar('toggle');});
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>StackF | Stack Files</title>
-    <meta name="description" content="stack files">
-    <link rel="shortcut icon" href="./images/logof.png">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Arimo:400,700,400italic">
-    <link rel="stylesheet" href="./css/icomoon.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body class="page-body">
-    <!-- skin-white -->
-    <div class="page-container">
-        <div class="sidebar-menu toggle-others fixed">
-            <div class="sidebar-menu-inner">
-                <header class="logo-env">
-                    <!-- logo -->
-                    <div class="logo">
-                        <a href="//stackf.com" class="logo-expanded">
-                            <img src="./images/logo.png" style="height:68px"
-                                alt="" />
-                        </a>
-                        <a href="//stackf.com" class="logo-collapsed">
-                            <img src="./images/logof.png" width="40"
-                                alt="" />
-                        </a>
-                    </div>
-                    <div class="mobile-menu-toggle visible-xs">
-                        <a href="#" data-toggle="mobile-menu">
-                            <i class="icon-bar"></i>
-                        </a>
-                    </div>
-                </header>
-                <ul id="main-menu" class="main-menu">
-                    {{ range .Site.Data.links.list }}
-                    {{if .sub}}
-                    <li class="has-sub">
-                        <a>
-                            <i class="{{.css}}"></i>
-                            <span class="title">{{.tag}}</span>
-                        </a>
-                        <ul>
-                            {{range .sub}}
-                            <li>
-                                <a href="javascript:" class="smooth" data-tag="#{{.tag}}">
-                                    <i class="{{.css}}"></i>
-                                    <span class="title">{{.tag}}</span>
-                                </a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                    </li>
-                    {{ else }}
-                    <li>
-                        <a href="javascript:" class="smooth" data-tag="#{{.tag}}">
-                            <i class="{{.css}}"></i>
-                            <span class="title">{{.tag}}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    {{ end }}
-                </ul>
-            </div>
-        </div>
-        <div class="main-content">
-            <nav class="navbar user-info-navbar" role="navigation">
-                <!-- User Info, Notifications and Menu Bar -->
-                <!-- Left links for user info navbar -->
-                <ul class="user-info-menu left-links list-inline list-unstyled">
-                    <li class="hidden-sm hidden-xs">
-                        <a href="#" data-toggle="sidebar">
-                            <i class="icon-bar"></i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <br />
-            <br />
-            {{ range .Site.Data.links.list }}
-            {{if .sub}}
-            {{range .sub}}
-            <h4 class="text-gray"><i class="{{.css}}" style="margin-right: 7px;" id="{{.tag}}"></i>{{.tag}}
-            </h4>
-            <div class="row">
-                {{range .item}}
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info"
-                        onclick="window.open('{{.siteLink}}', '_blank')" data-toggle="tooltip" data-placement="bottom"
-                        title="" data-original-title="{{.siteLink}}">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://www.google.cn/s2/favicons?domain={{.siteLink}}"
-                                    class="lozad " height="16" width="16">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>{{.siteName}}</strong>
-                                </a>
-                                <p class="overflowClip_2">{{.description}}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{end}}
-            </div>
-            <br />
-            {{end}}
-            {{ else }}
-            <h4 class="text-gray"><i class="{{.css}}" style="margin-right: 7px;" id="{{.tag}}"></i>{{.tag}}
-            </h4>
-            <div class="row">
-                {{range .item }}
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info"
-                        onclick="window.open('{{.siteLink}}', '_blank')" data-toggle="tooltip" data-placement="bottom"
-                        title="" data-original-title="{{.siteLink}}">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="https://www.google.cn/s2/favicons?domain={{.siteLink}}"
-                                    class="lozad " height="16" width="16">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>{{.siteName}}</strong>
-                                </a>
-                                <p class="overflowClip_2">{{.description}}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{ end }}
-            </div>
-            {{ end }}
-            <br />
-            {{ end }}
-
-            <!-- Main Footer -->
-            <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
-            <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
-            <!-- Or class "fixed" to  always fix the footer to the end of page -->
-            <footer class="main-footer sticky footer-type-1">
-                <div class="footer-inner">
-                    <!-- Add your copyright text here -->
-                    <div class="footer-text">
-                        @2020 StackF.com 
-                    </div>
-                    <div class="go-up">
-                        <a href="#" rel="go-top">
-                            <i class="icon-up"></i>
-                        </a>
-                    </div>
-                </div>
-            </footer>
-        </div>
-    </div>
-
-    <script src="//cdnjs.loli.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- 锚点平滑移动 -->
-    <script type="text/javascript">
-        $(document).ready(function () {
-            //img lazy loaded
-            const observer = lozad();
-            observer.observe();
-
-            $(document).on('click', '.has-sub', function () {
-                var _this = $(this)
-                if (!$(this).hasClass('expanded')) {
-                    setTimeout(function () {
-                        _this.find('ul').attr("style", "")
-                    }, 300);
-
-                } else {
-                    $('.has-sub ul').each(function (id, ele) {
-                        var _that = $(this)
-                        if (_this.find('ul')[0] != ele) {
-                            setTimeout(function () {
-                                _that.attr("style", "")
-                            }, 300);
-                        }
-                    })
-                }
-            })
-            $('.user-info-menu .hidden-sm').click(function () {
-                if ($('.sidebar-menu').hasClass('collapsed')) {
-                    $('.has-sub.expanded > ul').attr("style", "")
-                } else {
-                    $('.has-sub.expanded > ul').show()
-                }
-            })
-            $("#main-menu li ul li").click(function () {
-                $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
-                $(this).addClass('active'); // 添加当前元素的样式
-            });
-            $("a.smooth").click(function (ev) {
-                ev.preventDefault();
-
-                public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
-                ps_destroy();
-                $("html, body").animate({
-                    scrollTop: $($(this).attr("data-tag")).offset().top - 30
-                }, {
-                    duration: 500,
-                    easing: "swing"
-                });
-            });
-            return false;
-        });
-
-        var href = "";
-        var pos = 0;
-        $("a.smooth").click(function (e) {
-            $("#main-menu li").each(function () {
-                $(this).removeClass("active");
-            });
-            $(this).parent("li").addClass("active");
-            e.preventDefault();
-            href = $(this).attr("data-tag");
-            pos = $(href).position().top - 30;
-        });
-    </script>
-    <!-- Bottom Scripts -->
-
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/TweenMax.min.js"></script>
-    <script src="./js/resizeable.js"></script>
-    <script src="./js/xenon-toggle.js"></script>
-    <script src="./js/xenon-custom.js"></script>
-    <script src="./js/lozad.js"></script>
-    <script src="./js/LetterAvatar.js"></script>
-
-</body>
+			$('.ui.accordion').accordion();
+        })
+		
+    </script> 
+ </head> 
+ <body> 
+  <div class="ui visible thin sidebar vertical left menu  sidemenu inverted accordion"> 
+   <a class="item header ">侧边栏</a> {{ range .Site.Data.links.list }} {{if .sub}} 
+   <div class="item"> 
+    <a class="title"><i class="home dropdown icon"></i> <b>{{.tag}}</b></a> 
+    <div class="content menu">
+      {{range .sub}} 
+     <a class="item" href="#{{.tag}}"><i class="home icon"></i><b>{{.tag}}</b></a> {{ end }} 
+    </div> 
+   </div> {{ else }} 
+   <a class="item" href="#{{.tag}}"><i class="home icon"></i><b>{{.tag}}</b></a> {{ end }} {{ end }} 
+  </div> 
+  
+  <div class="pusher "> 
+   <div class="ui grid "> 
+	   <div class="row">
+		<div class="four wide column">123</div>
+		<div class="four wide column">123</div>
+		<div class=" four wide column">123</div>
+	   </div>
+   <div class="row">
+      <div class="ten wide column centered ">
+   {{ range .Site.Data.links.list }}
+   {{if .sub}}
+    {{range .sub}}
+    <div class="ui stacked segment"> 
+     <h4 class="ui header " id="{{.tag}}">{{.tag}}</h4> 
+     <div class="ui raised cards"> 
+	  {{range .item }}
+      <div class="ui card" href="{{.siteLink}}"> 
+       <div class="content"> 
+        <img class="right floated mini ui image" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}" /> 
+        <div class="header">
+         {{.siteName}}
+        </div> 
+        <div class="meta">
+         {{.siteLink}}
+        </div> 
+        <div class="description">
+        {{.description}}
+        </div> 
+       </div> 
+      </div> 
+	  {{ end }} 
+     </div> 
+    </div> 
+	{{end}}
+	{{else}}
+	    <div class="ui stacked segment"> 
+     <h4 class="ui header" id="{{.tag}}">{{.tag}}</h4> 
+     <div class="ui raised cards"> 
+	  {{range .item }}
+      <div class="ui card" href="{{.siteLink}}"> 
+       <div class="content"> 
+        <img class="right floated mini ui image" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}" /> 
+        <div class="header">
+         {{.siteName}}
+        </div> 
+        <div class="meta">
+         {{.siteLink}}
+        </div> 
+        <div class="description">
+        {{.description}}
+        </div> 
+       </div> 
+      </div> 
+	  {{ end }} 
+     </div> 
+    </div> 
+	{{end}}
+  {{end}}
+   </div>    </div> 
+   </div>
+  </div>  
+ </body>
 </html>
