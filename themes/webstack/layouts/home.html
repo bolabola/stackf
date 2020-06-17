@@ -45,23 +45,17 @@
     {{range .sub}}
     <div class="ui stacked segment"> 
      <h4 class="ui header " id="{{.tag}}">{{.tag}}</h4> 
-     <div class="ui link stackable three doubling cards"> 
+     <div class="ui stackable three doubling cards"> 
+         
 	  {{range .item }}
-      <div class="ui card" > 
+      <a class="ui card" href="{{.siteLink}}" target="_blank"> 
        <div class="content"> 
-        <img class="right floated mini ui image" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}" /> 
         <div class="header">
-         {{.siteName}}
-        </div> 
-        <div class="meta">
-         {{.siteLink}}
-        </div> 
-        <div class="description">
-        {{.description}}
-        </div> 
+         <img class="ui image" style="width: 16px;" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}" /> {{.siteName}}</div> 
+         <div class="meta" style="word-wrap: break-word; word-break: normal;">{{.siteLink}}</div> 
+         <div class="description">{{.description}}</div> 
        </div> 
-	   <div class="ui bottom attached button"><a href="{{.siteLink}}"><i class="add icon"></i> 访问 </a></div>
-      </div> 
+    </a> 
 	  {{ end }} 
      </div> 
     </div> 
@@ -69,29 +63,23 @@
 	{{else}}
 	    <div class="ui stacked segment"> 
      <h4 class="ui header" id="{{.tag}}">{{.tag}}</h4> 
-     <div class="ui link three doubling cards"> 
+     <div class="ui three doubling cards"> 
 	  {{range .item }}
-      <div class="ui card"> 
-       <div class="content"> 
-        <img class="right floated avatar ui image" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}" /> 
-        <div class="header">
-         {{.siteName}}
+      <a class="ui card" href="{{.siteLink}}" target="_blank"> 
+        <div class="content"> 
+         <div class="header">
+          <img class="ui image" style="width: 16px;" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}" /> {{.siteName}}</div> 
+          <div class="meta" style="word-wrap: break-word; word-break: normal;">{{.siteLink}}</div> 
+          <div class="description">{{.description}}</div> 
         </div> 
-        <div class="meta">
-         {{.siteLink}}
-        </div> 
-        <div class="description">
-        {{.description}}
-        </div> 
-       </div> 
-	   <div class="ui bottom attached button"><a  href="{{.siteLink}}"><i class="add icon"></i> 访问 </a></div>
-      </div> 
+     </a> 
 	  {{ end }} 
      </div> 
     </div> 
 	{{end}}
   {{end}}
-   </div>    </div> 
+   </div>    
+   </div> 
    </div>
   </div>  
  </body>
