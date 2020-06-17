@@ -2,6 +2,8 @@
 <html lang="en">
  <head> 
   <meta charset="UTF-8" /> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Semantic UI </title> 
   <!-- 使用CDN导入js和css 文件--> 
   <link href="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.css" rel="stylesheet" /> 
@@ -43,24 +45,26 @@
    {{ range .Site.Data.links.list }}
    {{if .sub}}
     {{range .sub}}
+	
     <div class="ui stacked segment"> 
-     <h4 class="ui header " id="{{.tag}}">{{.tag}}</h4> 
-     <div class="ui stackable three doubling cards"> 
-         
+	<h4 class="ui large red ribbon label"id="{{.tag}}" >{{.tag}}</h4>
+	<br><br>
+     <div class="ui stackable four doubling cards"> 
 	  {{range .item }}
-      <a class="ui card" href="{{.siteLink}}" target="_blank"> 
+      <div class="ui card" href="{{.siteLink}}" target="_blank"> 
        <div class="content"> 
         <div class="header">
-         <img class="ui image" style="width: 16px;" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}" /> {{.siteName}}</div> 
+         <img class="ui image" style="width: 16px;" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}" /> <span style="padding-left:5px">{{.siteName}}</span></div> 
          <div class="meta" style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;">{{.siteLink}}</div> 
          <div class="description" >{{.description}}</div> 
        </div>
-       <div class="ui  buttons">
-        <button class="ui labeld icon button"><i class="pause icon"></i>Copy</button>
-        <button class="ui right labeled icon button"><i class="right linkify icon"></i> Visit </button>
-      </div>
+       <div  class="ui buttons">
+<button class="ui labeled icon button"><i class="copy icon"></i> Copy </button>
+<div class="or"></div>
+<button class="ui right labeled icon button"><i class="right linkify icon"></i> Visit </button>
+     </div>
 
-    </a> 
+    </div> 
 	  {{ end }} 
      </div> 
     </div> 
@@ -68,16 +72,16 @@
 	{{else}}
 	    <div class="ui stacked segment"> 
      <h4 class="ui header" id="{{.tag}}">{{.tag}}</h4> 
-     <div class="ui three doubling cards"> 
+     <div class="ui four doubling cards"> 
 	  {{range .item }}
-      <a class="ui card" href="{{.siteLink}}" target="_blank"> 
+      <div class="ui card" href="{{.siteLink}}" target="_blank"> 
         <div class="content"> 
          <div class="header">
           <img class="ui image" style="width: 16px;" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}" /> {{.siteName}}</div> 
           <div class="meta" style="overflow: hidden;">{{.siteLink}}</div> 
           <div class="description">{{.description}}</div> 
         </div> 
-     </a> 
+     </div> 
 	  {{ end }} 
      </div> 
     </div> 
