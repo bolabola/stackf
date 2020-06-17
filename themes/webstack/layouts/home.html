@@ -52,9 +52,14 @@
        <div class="content"> 
         <div class="header">
          <img class="ui image" style="width: 16px;" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}" /> {{.siteName}}</div> 
-         <div class="meta" style="word-wrap: break-word; word-break: normal;">{{.siteLink}}</div> 
-         <div class="description">{{.description}}</div> 
-       </div> 
+         <div class="meta" style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;">{{.siteLink}}</div> 
+         <div class="description" >{{.description}}</div> 
+       </div>
+       <div class="ui  buttons">
+        <button class="ui labeld icon button"><i class="pause icon"></i>Copy</button>
+        <button class="ui right labeled icon button"><i class="right linkify icon"></i> Visit </button>
+      </div>
+
     </a> 
 	  {{ end }} 
      </div> 
@@ -69,7 +74,7 @@
         <div class="content"> 
          <div class="header">
           <img class="ui image" style="width: 16px;" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}" /> {{.siteName}}</div> 
-          <div class="meta" style="word-wrap: break-word; word-break: normal;">{{.siteLink}}</div> 
+          <div class="meta" style="overflow: hidden;">{{.siteLink}}</div> 
           <div class="description">{{.description}}</div> 
         </div> 
      </a> 
