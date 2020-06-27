@@ -124,3 +124,8 @@ siteName="GeoGebra"
 description="TOML<->JSON Online converter"
 siteLink="https://pseitz.github.io/toml-to-json-online-converter/"
 siteName="TOML<->JSON"
+
+[[list.sub.item]]
+description="Pixlr X - free image editing online"
+siteLink="https://pixlr.com/x"
+siteName="Pixlr X"
