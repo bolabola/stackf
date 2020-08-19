@@ -150,3 +150,9 @@ siteName="NightCafe"
 description="Watch videos together, play games, or simply chat with friends or strangers all from within your browser!"
 siteLink="https://kosmi.io/"
 siteName="kosmi"
+
+
+[[list.sub.item]]
+description="免费开源、可编辑的地图服务"
+siteLink="https://www.openstreetmap.org/"
+siteName="OpenStreetMap"
