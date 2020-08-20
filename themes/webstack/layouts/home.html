@@ -121,6 +121,7 @@
                 {{range .item }}
                 <div class="ui card">
                   <div class="content">
+					<a href="{{.siteLink}}" target="_blank"><i class="right floated external alternate icon"></i></a>
                     <div class="header">
                       <img class="ui image" style="width: 16px;" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}"
                       />
@@ -135,22 +136,6 @@
                       {{.description}}
                     </div>
                   </div>
-                  
-                    <div class="ui fluid buttons">
-                      <button class="ui labeled icon button" >
-                        <i class="copy icon">
-                        </i>
-                        Copy
-                      </button>
-                      <div class="or">
-                      </div>
-                      <a class="ui right labeled icon button" href="{{.siteLink}}" target="_blank">
-                        <i class="right linkify icon">
-                        </i>
-                        Visit
-                      </a>
-                    </div>
-                
                 </div>
                 {{ end }}
               </div>
@@ -166,6 +151,7 @@
                 {{range .item }}
                 <div class="ui card">
                   <div class="content">
+					<a href="{{.siteLink}}" target="_blank"><i class="right floated external alternate icon"></i></a>
                     <div class="header">
                       <img class="ui image" style="width: 16px;" src="https://www.google.cn/s2/favicons?domain={{.siteLink}}"
                       />
@@ -180,22 +166,6 @@
                       {{.description}}
                     </div>
                   </div>
-                  
-                    <div class="ui fluid buttons">
-                      <button class="ui labeled icon button">
-                        <i class="copy icon">
-                        </i>
-                        Copy
-                      </button>
-                      <div class="or">
-                      </div>
-                      <a class="ui right labeled icon button" href="{{.siteLink}}" target="_blank">
-                        <i class="right linkify icon">
-                        </i>
-                        Visit
-                      </a>
-                    </div>
-                
                 </div>
                 {{ end }}
               </div>
