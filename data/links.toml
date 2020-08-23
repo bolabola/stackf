@@ -156,3 +156,8 @@ siteName="kosmi"
 description="免费开源、可编辑的地图服务"
 siteLink="https://www.openstreetmap.org/"
 siteName="OpenStreetMap"
+
+[[list.sub.item]]
+description="Picture to QR code converter"
+siteLink="https://www.qrpicture.com/"
+siteName="QRpicture"
