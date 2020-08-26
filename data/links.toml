@@ -161,3 +161,9 @@ siteName="OpenStreetMap"
 description="Picture to QR code converter"
 siteLink="https://www.qrpicture.com/"
 siteName="QRpicture"
+
+[[list.sub.item]]
+description="Minimalist Web Notepad"
+siteLink="https://github.com/pereorga/minimalist-web-notepad"
+siteName="Minimalist Web Notepad"
+
