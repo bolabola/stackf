@@ -1,14 +1,4 @@
 [[list]]
-tag = '这里没有'
-css = 'icon-star'
-
-[[list.item]]
-description="这里什么也没有"
-siteLink="http://s.mr"
-siteName="这里没有"
-
-
-[[list]]
 tag = '常用工具'
 css = 'icon-star'
 
