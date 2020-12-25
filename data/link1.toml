@@ -162,26 +162,4 @@ description="Hotpot提供用于图形设计和媒体创建的AI工具和设计�
 siteLink="https://hotpot.ai/tools"
 siteName="Hotpot Tools"
 
-[[list.sub]]
-tag = '开源项目'
-css = 'icon-globe'
 
-[[list.sub.item]]
-description="实时高分辨率背景抠像"
-siteLink="https://github.com/PeterL1n/BackgroundMattingV2"
-siteName="Real-Time High-Resolution Background Matting"
-
-[[list.sub.item]]
-description="通过AI把照片转换为线条艺术肖像"
-siteLink="https://github.com/vijishmadhavan/ArtLine"
-siteName="ArtLine"
-
-[[list.sub.item]]
-description="Minimalist Web Notepad"
-siteLink="https://github.com/pereorga/minimalist-web-notepad"
-siteName="Minimalist Web Notepad"
-
-[[list.sub.item]]
-description="Geometrize是一个桌面应用程序，可将图像几何化为几何图元"
-siteLink="https://github.com/Tw1ddle/geometrize"
-siteName="Geometrize"

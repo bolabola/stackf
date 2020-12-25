@@ -1,0 +1,23 @@
+[[list]]
+tag = '开源项目'
+css = 'icon-globe'
+
+[[list.item]]
+description="实时高分辨率背景抠像"
+siteLink="https://github.com/PeterL1n/BackgroundMattingV2"
+siteName="Real-Time High-Resolution Background Matting"
+
+[[list.item]]
+description="通过AI把照片转换为线条艺术肖像"
+siteLink="https://github.com/vijishmadhavan/ArtLine"
+siteName="ArtLine"
+
+[[list.item]]
+description="Minimalist Web Notepad"
+siteLink="https://github.com/pereorga/minimalist-web-notepad"
+siteName="Minimalist Web Notepad"
+
+[[list.item]]
+description="Geometrize是一个桌面应用程序，可将图像几何化为几何图元"
+siteLink="https://github.com/Tw1ddle/geometrize"
+siteName="Geometrize"
