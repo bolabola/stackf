@@ -127,7 +127,7 @@ siteName="repl.it"
 
 [[list.sub.item]]
 description="在线编译器学习工具，可显示汇编代码"
-siteLink="https://godbolt.org//"
+siteLink="https://godbolt.org"
 siteName="Compiler Explorer"
 
 [[list.sub.item]]
