@@ -180,3 +180,8 @@ siteName="ArtLine"
 description="Minimalist Web Notepad"
 siteLink="https://github.com/pereorga/minimalist-web-notepad"
 siteName="Minimalist Web Notepad"
+
+[[list.sub.item]]
+description="Geometrize是一个桌面应用程序，可将图像几何化为几何图元"
+siteLink="https://github.com/Tw1ddle/geometrize"
+siteName="Geometrize"
