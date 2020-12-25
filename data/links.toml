@@ -153,11 +153,6 @@ siteLink="https://www.qrpicture.com/"
 siteName="QRpicture"
 
 [[list.sub.item]]
-description="Minimalist Web Notepad"
-siteLink="https://github.com/pereorga/minimalist-web-notepad"
-siteName="Minimalist Web Notepad"
-
-[[list.sub.item]]
 description="在线协同绘画"
 siteLink="https://aggie.io/"
 siteName="Aggie.io"
@@ -180,3 +175,8 @@ siteName="Real-Time High-Resolution Background Matting"
 description="通过AI把照片转换为线条艺术肖像"
 siteLink="https://github.com/vijishmadhavan/ArtLine"
 siteName="ArtLine"
+
+[[list.sub.item]]
+description="Minimalist Web Notepad"
+siteLink="https://github.com/pereorga/minimalist-web-notepad"
+siteName="Minimalist Web Notepad"
