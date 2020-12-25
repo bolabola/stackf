@@ -162,3 +162,21 @@ description="在线协同绘画"
 siteLink="https://aggie.io/"
 siteName="Aggie.io"
 
+[[list.sub.item]]
+description="Hotpot提供用于图形设计和媒体创建的AI工具和设计工具 "
+siteLink="https://hotpot.ai/tools"
+siteName="Hotpot Tools"
+
+[[list.sub]]
+tag = '开源项目'
+css = 'icon-globe'
+
+[[list.sub.item]]
+description="实时高分辨率背景抠像"
+siteLink="https://github.com/PeterL1n/BackgroundMattingV2"
+siteName="Real-Time High-Resolution Background Matting"
+
+[[list.sub.item]]
+description="通过AI把照片转换为线条艺术肖像"
+siteLink="https://github.com/vijishmadhavan/ArtLine"
+siteName="ArtLine"
