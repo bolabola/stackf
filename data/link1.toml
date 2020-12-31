@@ -166,3 +166,9 @@ siteName="Hotpot Tools"
 description="一个无需注册的文本分享平台"
 siteLink="https://pasteme.cn/"
 siteName="Pasteme"
+
+[[list.sub.item]]
+description="在线图像编辑器PhotoShop"
+siteLink="https://www.photopea.com/"
+siteName="Photopea"
+
