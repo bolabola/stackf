@@ -172,3 +172,8 @@ description="在线图像编辑器PhotoShop"
 siteLink="https://www.photopea.com/"
 siteName="Photopea"
 
+[[list.sub.item]]
+description="数据结构和算法动态可视化visualgo"
+siteLink="https://visualgo.net/zh"
+siteName="visualgo"
+
