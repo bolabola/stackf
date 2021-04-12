@@ -27,7 +27,7 @@ siteLink="http://www.assimp.org/"
 siteName="Assimp"
 
 [[list.sub.item]]
-description="An image effects library for JavaScript"
+description="JavaScript图片效果库"
 siteLink="http://evanw.github.io/glfx.js/demo/"
 siteName="glfx.js"
 
@@ -111,17 +111,17 @@ siteLink="https://www.geogebra.org/"
 siteName="GeoGebra"
 
 [[list.sub.item]]
-description="TOML<->JSON Online converter"
+description="TOML<->JSON 在线转换"
 siteLink="https://pseitz.github.io/toml-to-json-online-converter/"
 siteName="TOML<->JSON"
 
 [[list.sub.item]]
-description="Pixlr X - free image editing online"
+description="Pixlr X免费在线图片编辑"
 siteLink="https://pixlr.com/x"
 siteName="Pixlr X"
 
 [[list.sub.item]]
-description="in-browser IDE to code in 50+ languages"
+description="在线写代码-支持50+语言"
 siteLink="https://repl.it/"
 siteName="repl.it"
 
@@ -131,7 +131,7 @@ siteLink="https://godbolt.org"
 siteName="Compiler Explorer"
 
 [[list.sub.item]]
-description="AI Art Generator"
+description="AI 艺术照生成"
 siteLink="https://creator.nightcafe.studio/"
 siteName="NightCafe"
 
@@ -148,7 +148,7 @@ siteLink="https://www.openstreetmap.org/"
 siteName="OpenStreetMap"
 
 [[list.sub.item]]
-description="Picture to QR code converter"
+description="图片->二维码转换器"
 siteLink="https://www.qrpicture.com/"
 siteName="QRpicture"
 
