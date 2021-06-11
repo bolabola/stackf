@@ -21,3 +21,8 @@ siteName="Minimalist Web Notepad"
 description="Geometrize是一个桌面应用程序，可将图像几何化为几何图元"
 siteLink="https://github.com/Tw1ddle/geometrize"
 siteName="Geometrize"
+
+[[list.item]]
+description="图片转为线条画"
+siteLink="https://github.com/javierbyte/pintr"
+siteName="Pintr"
